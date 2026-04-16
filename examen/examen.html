@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen AWEB</title>
+    <link rel="stylesheet" href="examen.css">
+</head>
+
+<body>
+    <div class="cabecera">
+        <h1>AeroControl Systems</h1>
+        <p>Simulador educativo de paneles aeronáuticos, telemetría y gestión de vuelos.</p>
+    </div>
+
+    <div class="menu">
+        <a href="#vision">Visión General</a>
+        <a href="#instrumentos">Instrumentos</a>
+        <a href="#Protocolos">Protocolos</a>
+        <a href="#Turnos">Turnos de Vuelo</a>
+    </div>
+
+    <div class="padreflex">
+
+        <div class="cajaflex">
+            <h2 id="vision">Control de Cabina</h2>
+            <div>
+                <div class="derecha">
+                    <img src="/home/usuario/Descargas/examen/panel.jpg" height="300px" width="400px">
+                </div>
+                <div class="derecha">
+                    <p>El sistema <strong>Aerocontrol</strong> permite la simulación de paneles reales utilizados en
+                        aeronaves de
+                        entrenamiento. Este módulo
+                        reproduce datos de altura, rumbo, presión y fallos controlados.</p>
+                    <p>Los alumnos deben interpretar lecturas y ajustar parámetros mientras siguen un guion de vuelo
+                        dinámico.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cajaflex">
+
+            <h2 id="instrumentos">Instrumentos principales</h2>
+            <div class="padre2">
+                <div class="izquierda">
+                    <ul>
+                        <li>Altímetro
+                            <ul>
+                                <li>Presión barométrica</li>
+
+                                <li>Ajuste QNH</li>
+                            </ul>
+                        </li>
+
+                        <li>Horizonte Artificial
+                            <ul>
+                                <li>Ángulo de alabeo</li>
+
+                                <li>giroscópica</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="derecha">
+                    <ul>
+
+                        <li>Velocímetro
+                            <ul>
+                                <li>Nudos / Kts</li>
+
+                                <li>Limitaciones estructurales</li>
+                            </ul>
+                        </li>
+
+                        <li>Indicador de rumbo
+                            <ul>
+                                <li>Desvío magnético</li>
+
+                                <li>Correcciones de viento</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cajaflex">
+            <div class="padre2">
+                <h2 id="Protocolos">Protocolos de Vuelo</h2>
+                <div class="cajaazul">
+                    <h3>Protocolo A1</h3>
+                    Encendido básico, pruebas previas y determinación de parámetros iniciales.
+                </div>
+                <div class="cajaazul">
+                    <h3>Protocolo B2</h3>
+                    Simulación de cambios bruscos de altitud y gestión de estabilidad.
+                </div>
+                <div class="cajaazul">
+                    <h3>Protocolo C3</h3>
+                    Failover de instrumentos y navegación alternativa.
+                </div>
+            </div>
+        </div>
+
+        <div class="cajaflex">
+            <h2 id="Turnos">Turnos de Vuelo Semanales</h2>
+            <table>
+                <tr id="oscuro">
+                    <td>Piloto</td>
+                    <td colspan="2">Horario</td>
+                    <td colspan="2">Sesiones</td>
+                    <td>Instructor</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">P.Gómez</td>
+                    <td>08:00</td>
+                    <td>10:00</td>
+                    <td>Instrumentos Básicos</td>
+                    <td rowspan="2">Sin Turbulencia</td>
+                    <td rowspan="3">Cap. L. Torres</td>
+                </tr>
+                <tr class="gray">
+                    <td>10:00</td>
+                    <td>12:00</td>
+                    <td>Vuelo Recto y nivelado</td>
+                </tr>
+                <tr>
+                    <td>P.Rivera</td>
+                    <td colspan="2">12:00-15:00</td>
+                    <td colspan="2">Procedimientos de Emergencia</td>
+                </tr>
+                <tr class="gray">
+                    <td rowspan="2">P.Aranda</td>
+                    <td>15:00</td>
+                    <td>16:00</td>
+                    <td rowspan="2">Giros Coordinados</td>
+                    <td>Sim. Noche</td>
+                    <td rowspan="2">Tte. J. Ruiz</td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td>17:00</td>
+                    <td>Sim. Baja Visibilidad</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <p id="gris">© 2025 AWEB - IES LUIS VÉLEZ DE GUEVARA</p>
+</body>
+
+</html>
